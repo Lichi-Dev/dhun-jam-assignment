@@ -1,0 +1,17 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.not-found-heading {
+  font-size: 200px;
+  color: #6741d9;
+  margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  .not-found-heading {
+    font-size: 50px;
+  }
+}
